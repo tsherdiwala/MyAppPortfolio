@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.knoxpo.myappportfolio.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/title"
+            android:textSize="24sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            style="@style/AppsButtonStyle"
+            android:id="@+id/btn_spotify_streamer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_spotify_streamer"/>
+
+        <Button
+            style="@style/AppsButtonStyle"
+            android:id="@+id/btn_scores_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_scores_app"/>
+
+        <Button
+            style="@style/AppsButtonStyle"
+            android:id="@+id/btn_library_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_library_app"/>
+
+        <Button
+            style="@style/AppsButtonStyle"
+            android:id="@+id/btn_build_it_bigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_build_it_bigger"
+            />
+
+        <Button
+            style="@style/AppsButtonStyle"
+            android:id="@+id/btn_xyz_reader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_xyz_reader"/>
+
+        <Button
+            android:id="@+id/btn_capstone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_capstone"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:background="@color/bg_capstone_btn"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
